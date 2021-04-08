@@ -4,7 +4,7 @@ https://readouble.com/laravel/6.x/ja/
 
 ## よく使うdockerコマンド一覧
 
-### laradockディレクトリに移動してから下のコマンドを実行  (cd Desktop/Axis_Project/laradock)
+### laradockディレクトリに移動してから下のコマンドを実行  (cd Desktop/fy2021-b-team/laradock)
 
 
 起動 　　
@@ -36,7 +36,7 @@ workspaceに入るには
 
 	 docker exec -it  laradock_workspace_1 /bin/bash
 
-### データベースを自動作成するには　Axis_Projectディレクトリに移動してから下のコマンドを実行
+### データベースを自動作成するには　StampChatディレクトリに移動してから下のコマンドを実行
     docker exec -it  laradock_workspace_1 /bin/bash
 
     php artisan migrate:refresh --seed
