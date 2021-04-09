@@ -10,6 +10,10 @@ https://readouble.com/laravel/6.x/ja/
 起動 　　
 
     docker-compose up -d php-fpm nginx mysql workspace
+    docker exec -it  laradock_workspace_1 /bin/bash
+    ->bashの中
+    composer install
+
 
 //起動後に localhost でアクセスできるはず
 
