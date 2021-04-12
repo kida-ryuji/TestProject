@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name', '文字のない世界') }}
+            <h1>文字のない世界</h1>
         </a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
