@@ -16,5 +16,10 @@ class ChatDataTableSeeder extends Seeder
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
         ]);
+        DB::table('chat_data')->insert([
+            'comment' => 'test2',
+            'created_at' => new DateTime(),
+            'updated_at' => new DateTime(),
+        ]);
     }
 }

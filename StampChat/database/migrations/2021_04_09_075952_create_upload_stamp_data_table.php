@@ -15,7 +15,8 @@ class CreateUploadStampDataTable extends Migration
     {
         Schema::create('upload_stamp_data', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->timestamps();
+            $table->string('stamp_name', 10);
+            $table->string('path');
         });
     }
 

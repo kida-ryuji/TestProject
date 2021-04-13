@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
          $this->call(UsersTableSeeder::class);
          $this->call(ChatDataTableSeeder::class);
-        //  $this->call(DefaultStamDataSeeder::class);
-        //  $this->call(UploadStamDataSeeder::class);
+        //  $this->call(DefaultStampDataSeeder::class);
+        //  $this->call(UploadStampDataSeeder::class);
     }
 }

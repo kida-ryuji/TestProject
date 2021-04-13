@@ -15,7 +15,6 @@ class CreateDefaultStampDataTable extends Migration
     {
         Schema::create('default_stamp_data', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('user_id', 10);
             $table->string('stamp_name', 10);
             $table->integer('count');
             $table->string('path');
