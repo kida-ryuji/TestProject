@@ -1,0 +1,18 @@
+
+h1 {
+    color: black;
+    font-size: 25px;
+    margin: 0%;
+}
+nav{
+    text-align: center;
+    background-color: lightsteelblue;
+    height: 50px;
+}
+.nav-link {
+    list-style-type: none;
+
+}
+.nav-icon {
+    padding-right: 10;
+}
