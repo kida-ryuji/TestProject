@@ -9,8 +9,7 @@ class ChatroomController extends Controller
 {
     public function index()
     {
-        $comments = ChatData::get();
-        return view('chatroom', ['comments' => $comments]);
+        return view('chatroom');
     }
 
     public function getData()
