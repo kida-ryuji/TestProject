@@ -20,9 +20,31 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="stamp-area ml-3 card">
+			<div class="card-body stamp-card">
+				<form>
+				{{-- <form method="POST" action="{{route('add')}}"> --}}
+					@csrf
+					<div class="form-row">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
+
+					</div>
+				</form>
+			</div>
+		</div>
 	</div>
 
-	<form method="POST" action="{{route('add')}}">
+	{{-- <form method="POST" action="{{route('add')}}">
 		@csrf
 		<div class="comment-container row justify-content-center">
 			<div class="input-group comment-area">
@@ -32,7 +54,7 @@
 				<button type="submit" id="submit" class="btn btn-outline-primary comment-btn">送信</button>
 			</div>
 		</div>
-	</form>
+	</form> --}}
 </div>
 
 @endsection
