@@ -11,11 +11,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         $this->call([
+        $this->call([
             UsersTableSeeder::class,
             ChatDataTableSeeder::class,
-        //  $this->call(DefaultStampDataSeeder::class);
-        //  $this->call(UploadStampDataSeeder::class);
-         ]);
+            DefaultStampDataSeeder::class
+            //  $this->call(UploadStampDataSeeder::class);
+        ]);
     }
 }
