@@ -26,18 +26,17 @@
 				<form>
 				{{-- <form method="POST" action="{{route('add')}}"> --}}
 					@csrf
-					<div class="form-row">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="" class="stamp rounded m-2" alt="送信">
-
+					<div class="row">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
+						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
 					</div>
 				</form>
 			</div>

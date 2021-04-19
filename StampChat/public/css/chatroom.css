@@ -38,17 +38,17 @@
   .comment-body-user {
 	font-weight: bold;
 	font-size: 20px;
+	width: 100%;
   }
 
   .comment-body-time {
 	font-size: 10px;
 	margin-top: 10px;
-	margin-left: 5px;
 	color: #a0a0a0;
   }
 
   .stamp-area {
-	width: 36%;
+	width: 35%;
   }
 
   .stamp-card {
