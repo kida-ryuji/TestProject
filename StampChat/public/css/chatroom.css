@@ -4,12 +4,12 @@
   }
 
   .chat-card {
-	height: 67vh;
+	height: 80vh;
 	overflow: auto;
   }
 
   .chat-area {
-	width: 70%;
+	width: 50%;
   }
 
   .comment-container {
@@ -24,7 +24,7 @@
   }
 
   .comment-btn {
-	margin: 0px 10px;
+	margin-left: 10px;
   }
 
   .comment-body {
@@ -38,11 +38,25 @@
   .comment-body-user {
 	font-weight: bold;
 	font-size: 20px;
+	width: 100%;
   }
 
   .comment-body-time {
 	font-size: 10px;
 	margin-top: 10px;
-	margin-left: 5px;
 	color: #a0a0a0;
+  }
+
+  .stamp-area {
+	width: 35%;
+  }
+
+  .stamp-card {
+	/* height: 72vh; */
+	overflow: auto;
+  }
+
+  .stamp {
+	height: 100px;
+	width: auto;
   }
