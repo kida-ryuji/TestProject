@@ -18,7 +18,7 @@
                 <a class="nav-link" href="ranking">スタンプランキング</a>
             </li>
             <li class="nav-icon">
-                <a class="nav-link" href="addStamp">スタンプ追加</a>
+                <a class="nav-link" href="uploadStamp">スタンプ追加</a>
             </li>
         </ul>
         <!-- Right Side Of Navbar -->

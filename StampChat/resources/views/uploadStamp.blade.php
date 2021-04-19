@@ -17,6 +17,7 @@
         <div class="col-md-6 plev-img">
             
             <img src="<?php echo 'https://1.bp.blogspot.com/-ZOg0qAG4ewU/Xub_uw6q0DI/AAAAAAABZio/MshyuVBpHUgaOKJtL47LmVkCf5Vge6MQQCNcBGAsYHQ/s400/pose_pien_uruuru_woman.png';?>">
+            <img src="{{ asset('upload_stamp/banana.png') }}">
             <p>画像プレビュー</p>
         </div>
         <div class="col-md-6">

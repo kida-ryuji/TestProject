@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class AddStampData extends Model
+class UploadStampData extends Model
 {
     protected $fillable = [
         'path'
