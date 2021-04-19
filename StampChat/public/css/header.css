@@ -5,7 +5,6 @@ h1 {
     margin: 0%;
 }
 nav{
-    text-align: center;
     background-color: lightsteelblue;
     height: 50px;
 }
@@ -13,6 +12,6 @@ nav{
     list-style-type: none;
 
 }
-.nav-icon {
-    padding-right: 10;
+li.nav-icon {
+    padding-right: 10px;
 }
