@@ -17,7 +17,7 @@ function get_data() {
 								<span class="comment-body-user" id="name">${data.comments[i].user_name}</span>
 								<span class="comment-body-time" id="created_at">${data.comments[i].created_at}</span>
 							</div>
-							<span class="comment-body-content col" id="comment">${data.comments[i].stamp}</span>
+							<span class="comment-body-content" id="comment">${data.comments[i].stamp}</span>
 						</div>
 					</div>
 				`;

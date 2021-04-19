@@ -13,15 +13,15 @@ class ChatDataTableSeeder extends Seeder
     {
         DB::table('chat_data')->insert([
             [
-            'stamp' => '/default_stamp/sample.png',
-            'created_at' => new DateTime(),
-            'updated_at' => new DateTime(),
+                'stamp' => '/default_stamp/sample.png',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
             ],
             [
-            'stamp' => '/default_stamp/sample.png',
-            'created_at' => new DateTime(),
-            'updated_at' => new DateTime(),
-            ],
+                'stamp' => '/default_stamp/sample.png',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
+            ]
         ]);
     }
 }
