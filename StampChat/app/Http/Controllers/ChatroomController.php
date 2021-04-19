@@ -21,10 +21,10 @@ class ChatroomController extends Controller
 
     public function add(Request $request)
     {
-        $comment = $request->input('comment');
-        ChatData::create([
-            'comment' => $comment
-        ]);
+        // $comment = $request->input('comment');
+        // ChatData::create([
+        //     'comment' => $comment
+        // ]);
         return redirect('chatroom');
     }
 }

@@ -17,7 +17,7 @@ function get_data() {
 								<span class="comment-body-user" id="name">名無し</span>
 								<span class="comment-body-time" id="created_at">${data.comments[i].created_at}</span>
 							</div>
-							<span class="comment-body-content" id="comment">${data.comments[i].comment}</span>
+							<span class="comment-body-content" id="comment">${data.comments[i].stamp}</span>
 						</div>
 					</div>
 				`;
@@ -29,5 +29,5 @@ function get_data() {
 		}
 	});
 
-	setTimeout("get_data()", 50000)
+	setTimeout("get_data()", 5000)
 }
