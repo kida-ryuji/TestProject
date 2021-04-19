@@ -12,10 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('top');
 });
 
 Route::get('/top', 'TopController@top');
+
+Route::get('/uploadStamp', 'UploadStampController@uploadStamp');
+Route::post('/upload', 'UploadStampController@upload')->name('upload');
 
 Auth::routes();
 
