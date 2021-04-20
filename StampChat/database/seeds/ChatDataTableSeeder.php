@@ -12,14 +12,16 @@ class ChatDataTableSeeder extends Seeder
     public function run()
     {
         DB::table('chat_data')->insert([
-            'comment' => 'test',
+            [
+            'stamp' => '/default_stamp/sample.png',
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
-        ]);
-        DB::table('chat_data')->insert([
-            'comment' => 'test2',
+            ],
+            [
+            'stamp' => '/default_stamp/sample.png',
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
+            ],
         ]);
     }
 }
