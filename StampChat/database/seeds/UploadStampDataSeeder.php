@@ -12,8 +12,8 @@ class UploadStampDataSeeder extends Seeder
     public function run()
     {
         DB::table('upload_stamp_data')->insert([
-            'stamp_name' => 'stamp_1',
-            'path' => '',
+            // 'stamp_name' => '',
+            'path' => 'upload_stamp/jib.png',
         ]);
     }
 }
