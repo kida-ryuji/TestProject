@@ -15,10 +15,6 @@ function previewImage(obj)
 	fileReader.readAsDataURL(obj.files[0]);
 }
 
-$(function(){
+$(function() {
 
-    setTimeout(function () {
-        // getData();
-        console.log("b");
-    }, 5000);
 });
