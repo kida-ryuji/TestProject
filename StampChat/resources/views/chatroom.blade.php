@@ -37,7 +37,6 @@
 						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
 						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
 						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-
 					</div>
 				</form>
 			</div>
