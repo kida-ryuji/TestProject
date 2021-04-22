@@ -24,7 +24,15 @@
     }
     
     .slide {
-        margin-top: 100px;
+        margin-top: 50px;
+    }
+
+    .carousel-inner {
+        text-align: center;
+    }
+
+    .sample_img {
+        width: 1000px;
     }
 </style>
 @section('page_css')
@@ -35,9 +43,9 @@
 @include('layouts.header')
 
 @section('content')
-<p>トップページ</p>
+
 <div class="container">
-    <div id="app_sample" class="carousel slide mx-auto" data-ride="carousel" style="width:768px">
+    <div id="app_sample" class="carousel slide mx-auto" data-ride="carousel">
         <ol class="carousel-indicators">
         <li data-target="#app_sample" data-slide-to="0" class="active"></li>
         <li data-target="#app_sample" data-slide-to="1"></li>
@@ -45,13 +53,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="carousel_img/screen_shot_1.png" alt="First slide">
+            <img class="sample_img" src="carousel_img/screen_shot_1.png" alt="First slide">
             </div>
             <div class="carousel-item">
-            <img src="carousel_img/screen_shot_2.png" alt="Second slide">
+            <img class="sample_img" src="carousel_img/screen_shot_2.png" alt="Second slide">
             </div>
-            <div class="carousel-item">
-            <img src="carousel_img/screen_shot_3.png" alt="Third slide">
+            <div class="carousel-item"> 
+            <img class="sample_img" src="carousel_img/screen_shot_3.png" alt="Third slide">
             </div>
             <a class="carousel-control-prev" href="#app_sample" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
