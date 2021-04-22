@@ -15,7 +15,7 @@ class CreateChatDataTable extends Migration
     {
         Schema::create('chat_data', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('user_name')->default("noname");
+            $table->string('user_name')->default("Anonymous");
             $table->string('stamp');
             $table->timestamps();
         });

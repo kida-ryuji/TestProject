@@ -25,9 +25,9 @@ class DefaultStampDataSeeder extends Seeder
             ],
 
             [
-                'stamp_name' => 'chich_and_woman',
+                'stamp_name' => 'chick_and_woman',
                 //    'count' => ,
-                'path' => '/default_stamp/chich_and_woman.png',
+                'path' => '/default_stamp/chick_and_woman.png',
             ],
 
             [

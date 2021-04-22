@@ -28,7 +28,7 @@
   }
 
   .comment-body {
-	padding: 5px 30px 20px 30px;
+	padding: 5px 30px 10px 30px;
   }
 
   .comment-body:hover {
@@ -60,4 +60,8 @@
   .stamp {
 	height: 100px;
 	width: auto;
+  }
+
+  .btn {
+    padding: 0px;
   }
