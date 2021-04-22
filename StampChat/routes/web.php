@@ -19,7 +19,6 @@ Route::get('/top', 'TopController@top');
 
 Route::get('/uploadStamp', 'UploadStampController@uploadStamp');
 Route::post('/upload', 'UploadStampController@upload')->name('upload');
-Route::get('/result_upload', 'UploadStampController@getData');
 
 Auth::routes();
 

@@ -11,13 +11,6 @@
 
 @section('content')
 <style>
-    /* .upload_stamp {
-        width: 300px;
-    }
-
-    .list-group-item {
-        display: flex;
-    } */
     .stamp_container {
         width: 250px;
         height: 250px;
@@ -35,7 +28,7 @@
 
 <div class="container">
     <div class="upload row mt-5">
-        <div class="col-md-6 plev-img">
+        <div class="col-md-6">
             <div id="upload-image">
             <p>Preview<br>
                 <canvas id="preview" style="max-height:250px; max-width:250px;"></canvas>
@@ -62,8 +55,8 @@
             <p>データなし</p>
         @endempty
         @foreach($stamps as $stamp)    
-            <div class="col-4 align-item-center">  
-                <div class="stamp_container">         
+            <div class="col-4 align-item-center">
+                <div class="stamp_container">
                     <img src="{{ $stamp->path }}">
                 </div>
             </div>

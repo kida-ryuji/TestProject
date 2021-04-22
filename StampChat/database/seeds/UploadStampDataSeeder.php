@@ -13,16 +13,22 @@ class UploadStampDataSeeder extends Seeder
     {
         DB::table('upload_stamp_data')->insert([
             [
-                'stamp_name' => 'gibraltar.png',
+                'stamp_name' => 'gibraltar',
                 'path' => 'upload_stamp/gibraltar.png',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
             ],
             [
-                'stamp_name' => 'lifeline.png',
+                'stamp_name' => 'lifeline',
                 'path' => 'upload_stamp/lifeline.png',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
             ],
             [
-                'stamp_name' => 'bloodhound.png',
+                'stamp_name' => 'bloodhound',
                 'path' => 'upload_stamp/bloodhound.png',
+                'created_at' => new DateTime(),
+                'updated_at' => new DateTime(),
             ]
         ]);
     }

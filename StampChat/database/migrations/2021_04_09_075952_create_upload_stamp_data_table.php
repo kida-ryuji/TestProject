@@ -17,6 +17,7 @@ class CreateUploadStampDataTable extends Migration
             $table->bigIncrements('id');
             $table->string('stamp_name');
             $table->string('path');
+            $table->timestamps();
         });
     }
 
