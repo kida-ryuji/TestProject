@@ -13,8 +13,18 @@
         text-align: center;
     }
 
-    .botton-wrapper {
+    .button-wrapper {
         text-align: center;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10;
+        width: 100%;
+    }
+    
+    .slide {
+        margin-top: 100px;
     }
 </style>
 @section('page_css')
@@ -26,9 +36,39 @@
 
 @section('content')
 <p>トップページ</p>
-<div class="botton-wrapper"><a href=""><button class="btn btn-outline-secondary">お問い合わせ</button></a></div>
-
-
+<div class="container">
+    <div id="app_sample" class="carousel slide mx-auto" data-ride="carousel" style="width:768px">
+        <ol class="carousel-indicators">
+        <li data-target="#app_sample" data-slide-to="0" class="active"></li>
+        <li data-target="#app_sample" data-slide-to="1"></li>
+        <li data-target="#app_sample" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="carousel_img/screen_shot_1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+            <img src="carousel_img/screen_shot_2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img src="carousel_img/screen_shot_3.png" alt="Third slide">
+            </div>
+            <a class="carousel-control-prev" href="#app_sample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#app_sample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="button-wrapper"><a href=""><button class="btn btn-outline-secondary">お問い合わせ</button></a></div>
+    </div>
+</footer>
 @endsection
 
 @section('page_js')
