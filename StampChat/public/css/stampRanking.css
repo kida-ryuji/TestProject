@@ -1,0 +1,25 @@
+.container {
+    font-family: sans-serif;
+}
+.rank-title {
+    text-align: center;
+    font-size: 35px;
+}
+.ranking-table {
+    background-color:white ;
+    margin: 5px;
+}
+.ranking-space{
+    border: 10px;
+    border-bottom: 3px dotted lightgray;
+}
+.rank-number {
+    
+    font-size: 40px;
+}
+.rank-name {
+    font-size: 25px;
+}
+.rank-count {
+    font-size: 25px;
+}
