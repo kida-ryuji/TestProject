@@ -25,7 +25,7 @@ function get_data() {
 			}
 		},
 		error: () => {
-			alart("ajax Error")
+			alert("ajax Error")
 		}
 	});
 
