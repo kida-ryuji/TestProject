@@ -19,12 +19,14 @@ function get_data() {
 								<span class="comment-body-user" id="name">${data.comments[i].user_name}</span>
 								<span class="comment-body-time" id="created_at">${data.comments[i].created_at}</span>
 							</div>
-							<img src="${data.comments[i].stamp}" class="stamp ml-2 rounded" id="comment" alt="送られてきたスタンプ">
+							<img src="${data.comments[i].stamp}" class="stamp ml-3 rounded" id="comment" alt="送られてきたスタンプ">
 						</div>
 					</div>
 				`;
 				$("#comment-data").append(html);
 			}
+			let target = document.getElementById('comment-data');
+			target.scrollIntoView(false);
 		},
 		error: () => {
 			alert("ajax Error")

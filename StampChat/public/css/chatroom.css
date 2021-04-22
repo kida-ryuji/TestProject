@@ -1,67 +1,71 @@
 .chat-container {
 	width: 100%;
 	height: 100%;
-  }
+}
 
-  .chat-card {
-	height: 80vh;
+.chat-card {
+	height: 85vh;
 	overflow: auto;
-  }
+}
 
-  .chat-area {
-	width: 50%;
-  }
+.chat-area {
+	width: 40%;
+}
 
-  .comment-container {
+.comment-container {
 	position: fixed;
 	bottom: 20px;
 	text-align: center;
 	width: 100%;
-  }
+}
 
-  .comment-area {
+.comment-area {
 	width: 70%;
-  }
+}
 
-  .comment-btn {
+.comment-btn {
 	margin-left: 10px;
-  }
+}
 
-  .comment-body {
+.comment-body {
 	padding: 5px 30px 10px 30px;
-  }
+}
 
-  .comment-body:hover {
+.comment-body:hover {
 	background-color: #dfdfdf;
-  }
+}
 
-  .comment-body-user {
+.comment-body-user {
 	font-weight: bold;
 	font-size: 20px;
 	width: 100%;
-  }
+}
 
-  .comment-body-time {
+.comment-body-time {
 	font-size: 10px;
 	margin-top: 10px;
 	color: #a0a0a0;
-  }
+}
 
-  .stamp-area {
+.stamp-area {
 
 	width: 35%;
-  }
+}
 
-  .stamp-card {
+.stamp-card {
 	/* height: 72vh; */
 	overflow: auto;
-  }
+}
 
-  .stamp {
+.stamp {
 	height: 100px;
 	width: auto;
-  }
+}
 
-  .btn {
-    padding: 0px;
-  }
+.btn {
+	padding: 0px;
+}
+
+p {
+	margin: 0px;
+}
