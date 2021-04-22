@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
             UsersTableSeeder::class,
             ChatDataTableSeeder::class,
             DefaultStampDataSeeder::class,
-        //  $this->call(UploadStampDataSeeder::class);
+            UploadStampDataSeeder::class
          ]);
     }
 }
