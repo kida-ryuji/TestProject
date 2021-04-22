@@ -26,4 +26,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/chatroom', 'ChatroomController@index');
 Route::post('/add', 'ChatroomController@add')->name('add');
+Route::get('/add', 'ChatroomController@add');
 Route::get('/result', 'ChatroomController@getData');

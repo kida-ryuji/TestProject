@@ -22,9 +22,9 @@ class ChatroomController extends Controller
     public function add(Request $request)
     {
         $comment = $request->input('stamp');
-        ChatData::create([
+        $data = ChatData::create([
             'stamp' => $comment
         ]);
-        return redirect('chatroom');
+        return response($data->id);
     }
 }

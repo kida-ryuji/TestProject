@@ -23,22 +23,42 @@
 
 		<div class="stamp-area ml-3 card">
 			<div class="card-body stamp-card">
-				<form>
-				{{-- <form method="POST" action="{{route('add')}}"> --}}
-					@csrf
-					<div class="row">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-						<input type="image" src="/default_stamp/sample.png" name="/default_stamp/sample.png" class="stamp rounded m-2" alt="送信">
-					</div>
-				</form>
+				<div class="row p-2">
+					<button type="button" name="stamp" value="/default_stamp/banana.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/banana.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/business_kigyousenshi4.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/business_kigyousenshi4.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/chick_and_woman.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/chick_and_woman.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/dance_woman.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/dance_woman.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/yaruki_woman.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/yaruki_woman.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/game_yatsuatari.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/game_yatsuatari.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/hanamaru.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/hanamaru.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/jouhou_hanran.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/jouhou_hanran.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/naruto.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/naruto.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/sick_humster.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/sick_humster.png" class="stamp rounded" alt="スタンプ">
+					</button>
+					<button type="button" name="stamp" value="/default_stamp/Supprise_pig.png" class="stamp_btn btn m-1">
+						<img src="/default_stamp/Supprise_pig.png" class="stamp rounded" alt="スタンプ">
+					</button>
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -60,4 +80,5 @@
 
 @section('page_js')
 <script type="text/javascript" src="{{ asset('js/comment.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/stamp_send.js') }}"></script>
 @endsection

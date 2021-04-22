@@ -2,6 +2,8 @@ $(function() {
 	get_data();
 });
 
+setInterval(get_data, 5000)
+
 function get_data() {
 	$.ajax({
 		url: "result",
@@ -17,7 +19,7 @@ function get_data() {
 								<span class="comment-body-user" id="name">${data.comments[i].user_name}</span>
 								<span class="comment-body-time" id="created_at">${data.comments[i].created_at}</span>
 							</div>
-							<span class="comment-body-content col" id="comment">${data.comments[i].stamp}</span>
+							<img src="${data.comments[i].stamp}" class="stamp ml-2 rounded" id="comment" alt="送られてきたスタンプ">
 						</div>
 					</div>
 				`;
@@ -28,6 +30,4 @@ function get_data() {
 			alart("ajax Error")
 		}
 	});
-
-	setTimeout("get_data()", 5000)
 }

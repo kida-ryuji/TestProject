@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class ChatData extends Model
 {
     protected $fillable = [
-        'comment'
+        'stamp'
     ];
 
     protected $guarded = [
