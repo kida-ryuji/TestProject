@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-md navbar-light shadow-sm pb-2">
 
     <a class="navbar-brand" href="{{ url('/') }}">
-        <h1>文字のない世界</h1>
+        <h1><span>文字</span>のない世界</h1>
     </a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,11 +26,11 @@
             <!--会員登録　ログイン-->
             @guest
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('login') }}">{{ __('ログイン') }}</a>
+                <a class="nav-link" href="{{ route('login') }}"><button class="btn btn-outline-secondary">{{ __('ログイン') }}</button></a>
             </li>
             @if (Route::has('register'))
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('register') }}">{{ __('新規登録') }}</a>
+                <a class="nav-link" href="{{ route('register') }}"><button class="btn btn-outline-secondary">{{ __('新規登録') }}</button></a>
             </li>
             @endif
             @else
