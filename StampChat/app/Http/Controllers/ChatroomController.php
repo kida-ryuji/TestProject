@@ -29,6 +29,8 @@ class ChatroomController extends Controller
         $data = ChatData::create([
             'stamp' => $comment
         ]);
+        DefaultStampData::where("path", $comment)->increment('count');
+
         return response($data->id);
     }
 }

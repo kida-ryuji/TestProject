@@ -18,6 +18,7 @@ class CreateDefaultStampDataTable extends Migration
             $table->string('stamp_name');
             $table->integer('count')->default(0);
             $table->string('path');
+            $table->timestamps();
         });
     }
 
