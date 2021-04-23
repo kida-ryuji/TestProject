@@ -4,12 +4,12 @@
 }
 
 .chat-card {
-	height: 85vh;
+	height: 80vh;
 	overflow: auto;
 }
 
 .chat-area {
-	width: 40%;
+	width: 35%;
 }
 
 .comment-container {
@@ -54,7 +54,7 @@
 }
 
 .stamp-card {
-	/* height: 72vh; */
+	height: 80vh;
 	overflow: auto;
 }
 
