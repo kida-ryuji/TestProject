@@ -29,3 +29,6 @@ Route::post('/add', 'ChatroomController@add')->name('add');
 Route::get('/result', 'ChatroomController@getData');
 
 Route::get('/ranking', 'StampRankingController@ranking');
+
+Route::get('/admin', 'AdminController@index');
+Route::post('/delete', 'AdminController@delete')->name('delete');

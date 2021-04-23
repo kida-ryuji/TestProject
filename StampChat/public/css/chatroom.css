@@ -39,6 +39,7 @@
 	font-weight: bold;
 	font-size: 20px;
 	width: 100%;
+	color: black;
 }
 
 .comment-body-time {
@@ -62,7 +63,7 @@
 	width: auto;
 }
 
-.btn {
+.stamp_btn {
 	padding: 0px;
 }
 
