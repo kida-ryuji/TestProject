@@ -9,16 +9,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mr-auto ml-auto align-middle mb-2 mb-lg-0">
             <li class="nav-icon">
-                <a class="nav-link " href="top">ホーム</a>
+                <a class="nav-link " href="top"><img src="header_icon/home.png" width="30px"></a>
             </li>
             <li class="nav-icon">
-                <a class="nav-link" href="chatroom">チャットルーム</a>
+                <a class="nav-link" href="chatroom"><img src="header_icon/chat.png" width="30px"></a>
             </li>
             <li class="nav-icon">
-                <a class="nav-link" href="ranking">スタンプランキング</a>
+                <a class="nav-link" href="ranking"><img src="header_icon/rank.png" width="30px"></a>
             </li>
             <li class="nav-icon">
-                <a class="nav-link" href="uploadStamp">スタンプ追加</a>
+                <a class="nav-link" href="uploadStamp"><img src="header_icon/plus.png" width="30px"></a>
             </li>
         </ul>
         <!-- Right Side Of Navbar -->

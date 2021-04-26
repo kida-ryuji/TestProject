@@ -20,6 +20,9 @@ class UploadStampController extends Controller
 
     public function upload(Request $request)
     {
+        if ($_FILES['image']['size'] === 0) {
+            return redirect('uploadStamp');
+        }
         $file = $request->file('image');
         $name = $file->getClientOriginalName();
 

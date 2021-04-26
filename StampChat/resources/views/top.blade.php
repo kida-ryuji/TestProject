@@ -35,9 +35,8 @@
         width: 100%;
     }
 
-    .carousel-control-prev-icon {
-        outline: black;
-        background-color: rgba(0, 0, 0, 0.3);
+    .carousel-indicators .active {
+        background-color: #f00;
     }
 </style>
 @section('page_css')
@@ -50,7 +49,7 @@
 @section('content')
 
 <div class="container">
-    <div id="app_sample" class="carousel slide mx-auto border " data-ride="carousel" style="1000px">
+    <div id="app_sample" class="carousel slide mx-auto border " data-ride="carousel">
         <ol class="carousel-indicators">
         <li data-target="#app_sample" data-slide-to="0" class="active"></li>
         <li data-target="#app_sample" data-slide-to="1"></li>
