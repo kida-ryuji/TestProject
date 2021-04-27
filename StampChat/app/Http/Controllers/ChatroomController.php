@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\ChatData;
 use App\DefaultStampData;
 use App\UploadStampData;
+use App\UuidName;
+use Faker\Generator as Faker;
 
 class ChatroomController extends Controller
 {
@@ -23,11 +25,21 @@ class ChatroomController extends Controller
         return response()-> json($json);
     }
 
-    public function add(Request $request)
+    public function add(Request $request, Faker $faker)
     {
+        $uuid = $request->input("uuid");
+        $name = UuidName::where("uuid", $uuid)->value("name");
+        if(is_null($name)){
+            $name = $faker->name;
+            UuidName::create([
+                "uuid" => $uuid,
+                "name" => $name
+            ]);
+        }
         $comment = $request->input('stamp');
         $data = ChatData::create([
-            'stamp' => $comment
+            'stamp' => $comment,
+            "user_name" => $name
         ]);
         DefaultStampData::where("path", $comment)->increment('count');
 
