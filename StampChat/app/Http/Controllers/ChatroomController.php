@@ -20,11 +20,13 @@ class ChatroomController extends Controller
     {
         $comment = ChatData::orderBy('created_at', 'ASC')->get();
         $json = ['comments' => $comment];
-        return response()-> json($json);
+        return response()->json($json);
     }
 
     public function add(Request $request)
     {
+        $uuid = $request->input('uuid');
+        //error_log(var_export($uuid, true), 3, './debug.txt');
         $comment = $request->input('stamp');
         $data = ChatData::create([
             'stamp' => $comment
