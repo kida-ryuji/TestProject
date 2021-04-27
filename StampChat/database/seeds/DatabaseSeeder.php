@@ -15,7 +15,8 @@ class DatabaseSeeder extends Seeder
             UsersTableSeeder::class,
             ChatDataTableSeeder::class,
             DefaultStampDataSeeder::class,
-            UploadStampDataSeeder::class
+            UploadStampDataSeeder::class,
+            UuidNamesTableSeeder::class,
          ]);
     }
 }

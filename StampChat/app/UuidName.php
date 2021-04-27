@@ -4,13 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ChatData extends Model
+class UuidName extends Model
 {
     protected $fillable = [
-        'stamp', "user_name"
+        'uuid', 'name'
     ];
 
-    protected $guarded = [
+        protected $guarded = [
         'create_at', 'update_at'
     ];
+
 }
