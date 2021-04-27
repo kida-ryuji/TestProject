@@ -1,3 +1,10 @@
+<script type="text/javascript">
+    (function() {
+        window.addEventListener("load", function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    })();  
+</script>
 @section('header')
 
 <nav class="navbar navbar-expand-md navbar-light shadow-sm pb-2">
@@ -8,16 +15,16 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mr-auto ml-auto align-middle mb-2 mb-lg-0">
-            <li class="nav-icon">
+            <li class="nav-icon" data-toggle="tooltip" title="トップ">
                 <a class="nav-link " href="top"><img src="header_icon/home.png" width="30px"></a>
             </li>
-            <li class="nav-icon">
+            <li class="nav-icon" data-toggle="tooltip" title="チャットルーム">
                 <a class="nav-link" href="chatroom"><img src="header_icon/chat.png" width="30px"></a>
             </li>
-            <li class="nav-icon">
+            <li class="nav-icon" data-toggle="tooltip" title="ランキング">
                 <a class="nav-link" href="ranking"><img src="header_icon/rank.png" width="30px"></a>
             </li>
-            <li class="nav-icon">
+            <li class="nav-icon" data-toggle="tooltip" title="スタンプ追加">
                 <a class="nav-link" href="uploadStamp"><img src="header_icon/plus.png" width="30px"></a>
             </li>
         </ul>
@@ -57,3 +64,4 @@
 </nav>
 
 @endsection
+
