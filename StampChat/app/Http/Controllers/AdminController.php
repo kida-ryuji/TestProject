@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\UploadStampData;
+use App\ChatData;
 
 class AdminController extends Controller
 {
@@ -23,6 +24,7 @@ class AdminController extends Controller
 
         \File::delete($stamp_path, 'public_uploads');
         UploadStampData::where('path', $stamp_path)->delete();
+        ChatData::where('stamp', $stamp_path)->update(['stamp' => 'default_stamp/mark_batsu.png']);
 
         return redirect('admin')->with('success', '削除完了しました。');
     }

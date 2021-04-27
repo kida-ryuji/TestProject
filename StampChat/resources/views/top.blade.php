@@ -36,7 +36,7 @@
     }
 
     .carousel-indicators .active {
-        background-color: #f00;
+        background-color: #000;
     }
 </style>
 @section('page_css')
