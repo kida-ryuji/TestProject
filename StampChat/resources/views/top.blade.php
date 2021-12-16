@@ -1,6 +1,6 @@
 @extends('layouts.base')
 
-@section('title','トップページ')
+@section('title','トップページtest')
 <!--style-->
 <style>
     html,
