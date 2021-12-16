@@ -1,0 +1,73 @@
+.chat-container {
+	width: 100%;
+	height: 100%;
+}
+
+.chat-card {
+	height: 80vh;
+	overflow: auto;
+}
+
+.chat-area {
+	width: 35%;
+}
+
+.comment-container {
+	position: fixed;
+	bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.comment-area {
+	width: 70%;
+}
+
+.comment-btn {
+	margin-left: 10px;
+}
+
+.comment-body {
+	padding: 5px 30px 10px 30px;
+}
+
+.comment-body:hover {
+	background-color: #dfdfdf;
+}
+
+.comment-body-user {
+	font-weight: bold;
+	font-size: 20px;
+	width: 100%;
+	color: black;
+}
+
+.comment-body-time {
+	font-size: 10px;
+	margin-top: 10px;
+	color: #a0a0a0;
+}
+
+.stamp-area {
+
+	width: 35%;
+}
+
+.stamp-card {
+	height: 80vh;
+	overflow: auto;
+}
+
+.stamp {
+	height: 100px;
+	width: auto;
+}
+
+.stamp_btn {
+	padding: 0px;
+}
+
+p {
+	margin: 0px;
+	font-family: fantasy;
+}

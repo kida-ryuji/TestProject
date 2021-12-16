@@ -1,0 +1,23 @@
+.navbar-brand {
+    border-right: 1px solid darkgray;
+    padding: 5px 10px 5px 5px;
+}
+h1 {
+    color: midnightblue;
+    font-size: 25px;
+    margin: 0%;
+}
+span {
+    color: ghostwhite;
+}
+nav {
+    background-color: lightsteelblue;
+    height: 50px;
+}
+.nav-link {
+    list-style-type: none;
+
+}
+li.nav-icon {
+    padding-right: 30px;
+}
